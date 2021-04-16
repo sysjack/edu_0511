@@ -6,6 +6,6 @@ public class Main {
      int b = scan.nextInt();
      int c = scan.nextInt();
 
-     int VOL=a*b*c;
+     int VOL=a*b*c*1000;
         System.out.println( VOL);
     }

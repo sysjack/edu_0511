@@ -7,23 +7,23 @@
 
 
 
+
+
 public class Main {
     public static void main(String[] args) {
-        int a;
-        int b;
-        int c;
-        a = 1;
-        b = 11;
-        c = 1;
+        int a=1;
+        int b=11;
+        int c=1;
         while (c<b) {
             do  {
                 System.out.print((a*c)+ " ");
-                a++;}
-            while (a <b) ;
-            System.out.println();
-            a=1;
-            c++;
-                    };
+                a++;
+            }
+                while (a <b) ;
+                System.out.println();
+                a=1;
+                c++;
+        };
     }
 
 }

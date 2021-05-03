@@ -13,9 +13,9 @@ import java.util.Scanner;
 public class Main {
                public static void main(String[] args) {
      Scanner scan = new Scanner (System.in);
-     float TC = scan.nextInt();
-     float c = 32;
-     float  TF =  (TC * 9) / 5 + c ;
+     double TC = scan.nextInt();
+     double c = 32;
+     double  TF =  (TC * 9) / 5 + c ;
         System.out.println( TF );
     }
 }

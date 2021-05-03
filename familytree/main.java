@@ -1,4 +1,13 @@
-.getInfo();
+package familyTree;
+/* В нашем мире у Person не должно быть больше 100ед. здоровья */
+public class Main {
+    public static void main(String[] args) {
+        int medKit = 50;
+        Person nina = new Person("Нина", 60, null,null);
+        Person oleg = new Person("Олег",40,null,null);
+        Person olga = new Person("Ольга",35,nina,null);
+        Person igor = new Person("Игорь",13,olga,oleg);
+        olga.getInfo();
     }
 }
 

@@ -11,11 +11,11 @@ TF = (9 / 5) * TC + 32
 
 import java.util.Scanner;
 public class Main {
-               public static void main(String[] args) {
-     Scanner scan = new Scanner (System.in);
-     double TC = scan.nextInt();
-     double c = 32;
-     double  TF =  (TC * 9) / 5 + c ;
-        System.out.println( TF );
+    public static void main(String[] args) {
+        System.out.print("Ввдите температуру по Цельсию: ");
+        Scanner scan = new Scanner (System.in);
+        double TC = scan.nextDouble();
+        double  TF =  (TC * 9) / 5 + 32;
+        System.out.println( "Температура " + TC+ " по Цельсию соответствует "   + TF+ " по Фаренгейту" );
     }
 }

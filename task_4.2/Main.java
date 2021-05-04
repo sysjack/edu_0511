@@ -20,4 +20,18 @@ public class Main {
 
 public class Dog {
     //напишите тут ваш код
+      public String name;
+    public int age;
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
 }
+// Поскольку class Dog  public , он должен быть в отдельном файле

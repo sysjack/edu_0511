@@ -1,3 +1,4 @@
+
 /*
 Создай классы Dog, Cat, Mouse.
 Добавь по три поля в каждый класс, на твой выбор.
@@ -20,8 +21,9 @@ Mouse jerryMouse = new Mouse("Jerry", 12 , 5),
 public class Main {
     public static void main(String[] args) {
         Mouse jerryMouse = new Mouse("Jerry", 12, 5);
+        Cat tomCat = new Cat("Tom,", 2 , "grey");
+        Dog gavDog = new Dog("BOB", 3, 25);
 
-        //напишите тут ваш код
     }
 }
 class Mouse {
@@ -35,3 +37,28 @@ class Mouse {
         this.tail = tail;
     }
 }
+
+
+    class Dog {
+         String name;
+         int age;
+         int weight;
+
+        public Dog(String name, int age, int weight) {
+            this.name = name;
+            this.age = age;
+            this.weight = weight;
+        }
+    }
+
+    class Cat {
+         String name;
+         int age;
+         String color;
+
+        public Cat(String name, int age, String color) {
+            this.name = name;
+            this.age=age;
+            this.color = color;
+        }
+    }

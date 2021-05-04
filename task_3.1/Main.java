@@ -11,6 +11,15 @@
 public class Main {
     public static int min(int a, int b, int c) {
         //напишите тут ваш код
+            int minimum = a;
+            if (minimum>=b) {
+                minimum = b;
+            }
+            if (minimum>=c) {
+                minimum = c;
+            }
+            return minimum;
+
     }
 
     public static void main(String[] args) {

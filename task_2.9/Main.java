@@ -7,7 +7,7 @@ public class Main {
         //напишите тут ваш код
       int [] arr={2,3,4,7,6,7,8,9,10};
        String result= "Нет";
-       for (int i=0;i<8;i++) {
+       for (int i=0;i<arr.length;i++) {
            if (arr[i] == 5) result="Да";
         }
     System.out.println(result);

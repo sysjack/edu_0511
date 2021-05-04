@@ -16,12 +16,14 @@
 public class Main {
     public static int min(int a, int b, int c, int d) {
         //напишите тут ваш код
-
+        if ((min (a,b) > min (c,d))) return min (c,d);
+        else return min (a,b);
     }
 
     public static int min(int a, int b) {
         //напишите тут ваш код
-
+        if (a>b) return b;
+        else return a;
     }
 
     public static void main(String[] args) throws Exception {

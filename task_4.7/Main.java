@@ -8,17 +8,26 @@
 •	Дополнительные классы или интерфейсы создавать нельзя.
 */
 
-public class Main {
-    public static void main(String[] args){
-    }
-}
+import java.awt.*;
+import static java.awt.Color.GRAY;
 
-interface Animal {
-    Color getColor();
-}
-    
-class Fox {
-    public String getName() {
-        return "Fox";
+
+
+public class Main {
+    public static void main(String[] args) throws Exception {
+    }
+
+    public interface Animal {
+        Color getColor();
+    }
+
+    public static class Fox  implements Animal{
+        public Color getColor(){
+            return GRAY;
+        }
+
+        public String getName() {
+            return "Fox";
+        }
     }
 }

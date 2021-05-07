@@ -6,9 +6,9 @@ public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.print( "Введите первую переменную: ");
-        float a = scan.nextFloat();
+     double a = scan.nextDouble();
         System.out.print( "Введите вторую переменную: ");
-        float b = scan.nextFloat();
+        double b = scan.nextDouble();
         if (a%b==0) {
         System.out.println("Делится "+(a/b)); } else  System.out.println("Делится с остатком "+ a%b);
     }

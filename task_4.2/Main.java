@@ -12,26 +12,42 @@
 */
 
 
+import javax.xml.namespace.QName;
+
 public class Main {
     public static void main(String[] args) {
 
+
     }
 }
 
- class Dog {
+
+
+class Dog {
     //напишите тут ваш код
-      public String name;
+    public String name;
     public int age;
-    public String getName() {
-        return name;
+
+        public Dog (String name,int age) {
+        this.name= name;
+        this.age=age;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+    public Dog () {
 
-    public int getAge() {
-        return age;
+    }
+    public String getName(){
+            return name;
+    }
+    public void setName(String name){
+            this.name=name;
+    }
+     int getAge() {
+            return age;
+    }
+    public void setAge(int age){
+            this.age=age;
     }
 }
+
 
